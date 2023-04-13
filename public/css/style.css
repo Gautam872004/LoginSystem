@@ -1,0 +1,62 @@
+body
+{
+    background-color: #b39ddb ;
+}
+h1
+{
+    font-size: 55px;
+    color: #311b92;
+}
+h2
+{
+    color: #311b92;
+}
+h3 a
+{
+    text-decoration: none;
+    color: #311b92;
+}
+h3 a:hover
+{
+    color: #fff;
+}
+.label
+{
+    font-size: 25px;
+    margin: 5px;
+    color: #311b92;
+}
+.txt
+{
+    font-size: 20px;
+    margin: 5px;
+    border-radius: 15px;
+    border: 2px solid #311b92;
+}
+button
+{
+    font-size: 20px;
+    width: 45%;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: yellow;
+    border: 2px solid yellow;
+}
+button:hover
+{
+    background-color: #fff;
+    border: 2px solid yellow;
+}
+textarea:focus, input:focus{
+    outline: 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+::placeholder
+{
+    opacity: 0.5;
+}
